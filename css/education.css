@@ -1,0 +1,58 @@
+.education .box-container{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-flow: column;
+    padding: 1rem 0;
+    padding-left: 3rem;
+}
+.education .box-container .box{
+    /* width: 27rem; */
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left:  0.2rem solid white;
+    position:relative;
+}
+.education .box-container .box>span{
+    font-size: 1.3rem;
+    background-color: #222;
+    color: white;
+    border-radius: 5rem;
+    padding: 0.5rem 2.5rem;
+}
+.education .box-container .box h3{
+    font-size: 2rem;
+    color: white;
+    padding-top: 1.5rem;
+}
+.education .box-container .box h2{
+    font-size: 1.5rem;
+    color: white;
+    padding-top: 1.5rem;
+}
+.education .box-container .box P{
+    font-size: 1.8rem;
+    color: #eee;
+    padding: 1rem 0;
+}
+.education .box-container .box i{
+    position: absolute;
+    top: -1.5rem ;
+    left: -2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    background-color: var(--springGreen);
+}
+.education .box-container .box p>span{
+    color: var(--springGreen);
+    font-size: 2rem;
+    font-weight: 600;
+}
+/* portfolio section */
+

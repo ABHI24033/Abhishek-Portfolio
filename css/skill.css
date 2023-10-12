@@ -1,0 +1,73 @@
+.container{
+    /* background-color: blue; */
+    color:#444;
+    margin-left: 4rem;
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-left,.container-right{
+    border-left: 2px solid white;
+    /* width: 50%; */
+    width: 45rem;
+    position: relative;
+}
+.container-left>i,.container-right>i{
+    position: absolute;
+    top: -1.5rem ;
+    left: -2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    background-color: var(--springGreen);
+}
+
+.skill{
+    /* background: red; */
+    width: 90%;
+    height: 10rem;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    margin-left: 2rem;
+    padding: 2rem;
+    color: white;
+}
+.skill>div{
+    display: flex;
+    /* flex-direction: column; */
+}
+.skill > div> i{
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+.skill>div>div{
+    width: 40rem;
+    background: #444;
+    height: 2rem;
+    border-radius: 2rem;
+}
+.skill>div>div>div{
+    width: 75%;
+    background-color: var(--springGreen);
+    height: 2rem;
+    border-radius: 2rem;
+}
+.fill-percentage{
+    text-align: center;
+    color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+

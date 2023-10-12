@@ -1,0 +1,102 @@
+.about .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    /* background-color: red; */
+    margin-left: 6rem;
+    /* width: 95%; */
+}
+.about .row .info{
+    flex: 1 1 45rem;
+    padding: 2rem 1rem;
+    /* margin-left: 6rem; */
+    padding-left: 2rem;
+    border-left: 2px solid white;
+}
+.about .row .info h3{
+    font-size: 2rem;
+    color: var(--springGreen);
+    padding: 1rem 0;
+    font-weight: normal;
+
+}
+.about .row .info h3 span{
+    color: #eee;
+    padding: 0 0.5rem;
+
+}
+
+/* =====================boxes==================== */
+.about .row .counter{
+    flex: 1 1 48rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about .row .counter .box{
+    width: 20rem;
+    background-color: #222;
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+}
+.about .row .counter .box span{
+    font-size: 4rem;
+    color: var(--springGreen);
+
+}
+.about .row .counter .box h3{
+    color: white;
+    font-size: 2rem;
+}
+
+/* ================================================ */
+/* icon */
+.icons{
+    margin-top: 2rem;
+}
+.icons a{
+    color:var(--springGreen);
+    background-color: #222;
+    padding: 0.8rem 1rem;
+    font-size: 2.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0.3rem;
+}
+
+.icons a:hover{
+    color:white;
+    background-color:var(--springGreen);
+}
+.about>p{
+    color: white;
+    font-size: 2rem
+    ;
+    margin: 3rem 6rem;
+
+}
+
+.column{
+    flex: 1 1 40rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    color: white;
+    /* border-left: 0.3px solid white; */
+}
+.about .column>.info>h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+    /* margin: 1rem 0; */
+    margin-bottom: 1rem;
+}
+.column ul>li{
+    font-size: 2rem;
+    list-style: none;
+    margin: 1rem 0;
+}
