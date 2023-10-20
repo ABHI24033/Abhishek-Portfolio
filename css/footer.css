@@ -1,0 +1,40 @@
+footer{
+    color: white;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+footer p{
+    padding: 2rem 0;
+    font-size: 1.3rem;
+}
+.footer-icon{
+    position: absolute;
+    right: 10px;
+}
+.footer-icon a{
+    color: white;
+    font-size: 2rem;
+    margin: 10px;
+}
+.footer-icon a:hover{
+    color: var(--springGreen);
+}
+
+/* responsive */
+@media (max-width:868px){
+    .footer-icon{
+        position: relative;
+    }
+    footer{
+        flex-direction: column;
+        height: 10rem;
+    }
+}
+@media (max-width:430px){
+    footer{
+        flex-direction: column;
+    }
+}
