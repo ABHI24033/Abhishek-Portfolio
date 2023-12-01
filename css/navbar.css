@@ -12,8 +12,7 @@ header{
     justify-content: center;
     flex-flow: column;
     overflow-y: scroll;
-    /* height: 130vh; */
-    /* padding: 5rem 0; */
+    
 }
 
 header::-webkit-scrollbar{
@@ -64,6 +63,10 @@ header .navbar ul li a{
     border-radius: 5rem;
 }
 header .navbar ul li a:hover{
+    background-color: var(--springGreen);
+    color: #1a1a1a;
+}
+header .navbar ul li a.active{
     background-color: var(--springGreen);
     color: #1a1a1a;
 }

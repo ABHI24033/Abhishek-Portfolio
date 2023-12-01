@@ -4,7 +4,6 @@
     --springGreen:#00ce97;
 }
 *{
-    /* font-family: 'Roboto', sans-serif; */
     font-family: 'Nunito', sans-serif;
     margin: 0;
     padding: 0;
@@ -78,4 +77,3 @@ section{
 .heading span{
     color: var(--springGreen);
 }
-/* emd heading */
