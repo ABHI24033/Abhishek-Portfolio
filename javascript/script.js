@@ -10,7 +10,6 @@ bars.addEventListener("click",()=>{
 // activete the current navbar
 
 let list=document.querySelectorAll(".navbar ul li>a");
-console.log(list);
 const section=document.querySelectorAll(".section");
 
 function activeLink(li) {
@@ -38,3 +37,19 @@ window.onscroll = () => {
         }
     })
 };
+
+
+// active the portfolio nav
+
+// .portfolio_nav>li>a.{
+    let portfolio_nav_list=document.querySelectorAll(".portfolio_nav>li>a");
+    console.log(portfolio_nav_list);
+    function activePortfolioLink(listItem){
+        portfolio_nav_list.forEach((item)=>item.classList.remove("active"));
+        listItem.classList.add("active");
+    }
+    portfolio_nav_list.forEach((item)=>{
+        item.addEventListener("click",()=>{
+            activePortfolioLink(item);
+        })
+    })
